@@ -1,8 +1,35 @@
 *{
-	margin:0px;
-	padding:0px;
+ margin:0px;
+ padding:0px; 
 }
 
 body{
-	background:yellow;
+	font-family:Tahoma;
+}
+
+
+#myname{
+	position:fixed;
+	border:1px solid rgba(0,0,0,.3);
+	width:150px;
+	height:45px;
+	left:-100px;
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	cursor:pointer;
+	text-align:right;
+	padding-right:30px;
+}
+
+#view{
+	color:rgba(200,200,200,0.6);
+	position:absolute;
+	background:black;
+	visibility:hidden;
+}
+
+#view2{
+	position:absolute;
+	background:red;
+	visibility:hidden;
 }
