@@ -72,7 +72,11 @@ footer{
 }
 
 .footerView{
-	background:blue;
+	background:lime;
 	position:fixed;
 
+}
+.footerView a {
+	text-decoration:none;
+	cursor:pointer;
 }
