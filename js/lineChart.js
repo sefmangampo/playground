@@ -44,7 +44,7 @@ function displayWelcome(){
 	d3.select('svg').append("text")
 		.attr("x",containerWidth / 2 + "px")
 		.attr("y",containerHeight / 2 + "px")
-		.text("Click the Button to draw graph, may options ka sa gilid")
+		.text("Click the Button to draw graph")
 		.attr("font-size",50+"px")
 		.attr("text-anchor","middle")
 		.style("opacity",0)
